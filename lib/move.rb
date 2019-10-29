@@ -22,7 +22,7 @@ def is_position_taken?(board, index)
   #board[index] == 'X' || board[index] == or
   if board[index] == 'X' || board[index] == 'O'
     return true
-    else 
+    else
     return false
   end
 end
@@ -34,10 +34,10 @@ end
 def turn(board)
   puts "Choose a position to play on the board:"
   user_input = gets.strip
-  board_index = input_to_index(user_input) 
+  board_index = input_to_index(user_input)
     if is_move_valid?(board, board_index)
       move(board, board_index, "X")
-    else 
+    else
       puts "Invalid move"
       turn(board)
     end
