@@ -6,4 +6,5 @@ require_relative '../lib/move.rb'
 puts "Welcome, please input a number 1-9: "
 input_to_index = gets.strip
 
-board = " ", " ", " ", " ", " ", " ", " ", " ", " ",
+
+board = " ", " ", " ", " ", " ", " ", " ", " ", " "
