@@ -16,4 +16,3 @@ def move(board, index, letter = "X")
   board[index] = letter
   display_board(board)
 end
-
