@@ -41,5 +41,4 @@ def turn(board)
       puts "Invalid move"
       turn(board)
     end
-
 end
